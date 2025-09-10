@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+# 3D Dashboard Digital Twin
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/6dd1ddf6-eae1-413d-bbd1-19f5c308aa40
+This is a 3D industrial dashboard with digital twin capabilities, featuring AI-powered analysis and real-time monitoring.
 
-## How can I edit this code?
+## How to run this project
 
-There are several ways of editing your application.
+**Using your preferred IDE**
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/6dd1ddf6-eae1-413d-bbd1-19f5c308aa40) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally, you can clone this repo and push changes.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 Follow these steps:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Step 1: Clone the repository
+git clone https://github.com/CLUTCHIP/open-ai-hackaton.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 2: Navigate to the project directory
+cd open-ai-hackaton
 
-# Step 3: Install the necessary dependencies.
+# Step 3: Install the necessary dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## AI Backend Setup
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The project includes AI-powered analysis capabilities:
 
-**Use GitHub Codespaces**
+1. Navigate to the `ai_backend` folder
+2. Install Python dependencies: `pip install -r requirements.txt`
+3. Add your API keys to the configuration files
+4. Run the backend servers as needed
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## What technologies are used?
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Frontend**: Vite, TypeScript, React, shadcn-ui, Tailwind CSS
+- **Backend**: Python, Flask, AI/ML integration
+- **AI Models**: Groq, OpenRouter integration
+- **3D Visualization**: Three.js components
 
-## How can I deploy this project?
+## Features
 
-Simply open [Lovable](https://lovable.dev/projects/6dd1ddf6-eae1-413d-bbd1-19f5c308aa40) and click on Share -> Publish.
+- 3D industrial dashboard with real-time monitoring
+- AI-powered predictive analysis
+- Digital twin capabilities
+- Machine telemetry visualization
+- Maintenance insights and recommendations
 
-## Can I connect a custom domain to my Lovable project?
+## Deployment
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Deploy this project using any modern hosting platform that supports Node.js applications.

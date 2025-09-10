@@ -1,5 +1,6 @@
 # 3D Dashboard Digital Twin
-
+video demo 
+https://www.youtube.com/watch?v=EtSTtbDH7Vk
 ## Project Overview
 
 This is a 3D industrial dashboard with digital twin capabilities, featuring AI-powered analysis and real-time monitoring.
